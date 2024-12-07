@@ -1,0 +1,15 @@
+[project]
+name = "LearnTDD"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "coreJK", email = "r465755956@gmail.com"},
+]
+dependencies = ["django>=5.1.4", "selenium>=4.27.1"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
